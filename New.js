@@ -1,5 +1,7 @@
 let name = prompt("Please enter your name")
-let gendar=prompt("please enter your gendar")
+// let gendar=prompt("please enter your gendar")
+function gendar(){gendar=prompt("please enter your gendar")}
+
 while(gendar !=="female"&& gendar !=="male")
     {
    gendar=prompt("please enter your gendar")
@@ -15,9 +17,9 @@ else {
 console.log(5*3)
 
 
-// confirm("are you want to order donut or drinks or any things other")
-// let order = prompt ("please enter your order name")
-// alert("there order is getting prepared")
+confirm("are you want to order donut or drinks or any things other")
+let order = prompt ("please enter your order name")
+alert("there order is getting prepared")
 
 
 var values=[name,gendar,order]
